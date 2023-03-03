@@ -1,0 +1,95 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.text,.text1{
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.text{
+    color: crimson;
+
+}
+.text1{
+    color:#0487D9 ;
+
+}
+.text i,.text1 i{
+    font-size: 15px;
+}
+.noibat,.spmoi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    cursor: pointer;
+}
+.card{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-top{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card-top img{
+    width: 100%;
+}
+.des{
+    color: white;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    transform: translateY(+50%);
+    background-image: radial-gradient(circle, #ff0000, #fc001d, #f7002e, #f2023b, #eb1247);
+}
+
+
+.product-name{
+    font-weight: bolder;
+    color: darkslategray;
+    text-align: center;
+}
+.mua {
+    cursor: pointer;
+    background-color: #f44336; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.product-price{
+    color: red;
+    font-weight: bold;
+}
+.prices{
+    display: flex;
+    flex-direction: row;
+
+}
+.prices p{
+    margin-left: 20px;
+}
+.product-discount{
+    text-decoration-line: line-through;
+}
